@@ -13,7 +13,6 @@ class Postlist extends Component {
     renderList() {
         return (
             this.props.posts.map(post => {
-                console.log(post);
                 return (
                     <div className="item" key ={post.id}>
                         <i className="large middle aligned icon user" />
